@@ -1,13 +1,7 @@
 import './style.css';
 import NavLink from './nav-link';
 
-const navList = [
-  { id: 'item-1', content: '로그인', href: 'signin' },
-  { id: 'item-2', content: '회원가입', href: 'signup' },
-  { id: 'item-3', content: '상태 관리 전략', href: 'state-management' },
-  { id: 'item-4', content: '틱택토', href: 'tic-tac-toe' },
-  { id: 'item-5', content: '쇼핑 카트', href: 'shopping-cart' },
-];
+const navList = [{ id: 'item-1', content: '쇼핑 카트', href: 'shopping-cart' }];
 
 function Nav() {
   return (
