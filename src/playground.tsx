@@ -21,11 +21,11 @@ function Playground() {
   const viewElement = getViewElement(uiView);
 
   return (
-    <section className="Playground bg-euid-gray-200 wrapper">
-      <h1>플레이그라운드</h1>
+    <div className="Playground bg-euid-gray-200">
+      <h1>과제저장소</h1>
       <Nav />
       {viewElement}
-    </section>
+    </div>
   );
 }
 
