@@ -12,21 +12,21 @@ export const ITEMS: ItemType[] = [
     name: '1A 우유 900mL',
     price: 1880,
     stock: 2,
-    img_path: '/우유.png',
+    img_path: '/item-1.png',
   },
   {
     id: 'item-2',
     name: '맛있는 콩나물 500g',
     price: 1280,
     stock: 5,
-    img_path: '/콩나물.png',
+    img_path: '/item-2.png',
   },
   {
     id: 'item-3',
     name: '고소한 두부 1kg',
     price: 2280,
     stock: 4,
-    img_path: '/두부.png',
+    img_path: '/item-3.png',
   },
 ];
 
