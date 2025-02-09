@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+.plus-icon {
+  @apply w-4 h-4 bg-no-repeat bg-center;
+  background-image: url('/icons/plus--normal.svg');
+}
+
+.plus-icon:hover:not(:disabled):not(:focus-visible) {
+  background-image: url('/icons/plus--hover.svg');
+}
+
+.plus-icon:focus-visible:not(:disabled) {
+  background-image: url('/icons/plus--focus.svg');
+}
+
+.plus-icon:disabled {
+  background-image: url('/icons/plus--disabled.svg');
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.minus-icon {
+  @apply w-4 h-4 bg-no-repeat bg-center;
+  background-image: url('/icons/minus--normal.svg');
+}
+
+.minus-icon:hover:not(:disabled):not(:focus-visible) {
+  background-image: url('/icons/minus--hover.svg');
+}
+
+.minus-icon:focus-visible:not(:disabled) {
+  background-image: url('/icons/minus--focus.svg');
+}
+
+.minus-icon:disabled {
+  background-image: url('/icons/minus--disabled.svg');
+  @apply opacity-50 cursor-not-allowed;
+}
