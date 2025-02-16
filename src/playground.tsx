@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Nav from '@/homework/components/nav';
 import { getUIView } from '@/homework/lib/ui-view';
 import ShoppingCart from './homework/pages/shopping-cart';
+import StopWatchBoard from './homework/pages/stop-watch';
 
 const getViewElement = (uiView: string) => {
   let viewElement: React.ReactElement | null = null;
@@ -9,6 +10,10 @@ const getViewElement = (uiView: string) => {
   switch (uiView) {
     case 'shopping-cart': {
       viewElement = <ShoppingCart />;
+      break;
+    }
+    case 'stop-watch': {
+      viewElement = <StopWatchBoard />;
       break;
     }
   }
